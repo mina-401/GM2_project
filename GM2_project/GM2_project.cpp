@@ -12,9 +12,6 @@ void Test(int Value0, int Value1, int Value2, int Value3)
     int TestValue2 = *(Ptr + 4);
     int TestValue3 = *(Ptr + 6);
 
-    //int sz = sizeof(Ptr);
-
-    int a = 0;
 }
 
 int main()
