@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ccde136b-4256-4279-badb-b2f39e7d1f81}</ProjectGuid>
-    <RootNamespace>GM2project</RootNamespace>
+    <ProjectGuid>{0f6540a2-d023-44f2-a816-112135ff1e93}</ProjectGuid>
+    <RootNamespace>StringCount</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GM2_project.cpp" />
+    <ClCompile Include="StringCount.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
