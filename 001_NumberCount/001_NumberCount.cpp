@@ -20,7 +20,7 @@ int NumberCount(int _Value)
 //숫자 -> 문자열 
 void NumberToString(char* Buffer, int BufferSize, int _Value)
 {
-    size_t i = NumberCount(_Value);
+    int i = NumberCount(_Value);
     Buffer[i] = 0;
     
 
