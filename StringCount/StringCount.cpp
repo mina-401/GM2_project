@@ -7,16 +7,14 @@ int StringCount(const char* const _str) {
     
     int Count = 0;
     while (_str[Count]) { 
-        Count = Count + 1;
+        Count = Count + 1; //문자열 끝인 0이 나올때 까지 카운트를 늘린다.
     }
 
     return Count;
 }
 int main()
 {
-    
-    int Count = StringCount("BBBB");
-  
+    int Count = StringCount("한글자");
     int a = 0;
 
 }
