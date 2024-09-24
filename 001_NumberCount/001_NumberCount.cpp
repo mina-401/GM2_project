@@ -20,17 +20,16 @@ int NumberCount(int _Value)
 //숫자 -> 문자열 
 void NumberToString(char* Buffer, int BufferSize, int _Value)
 {
-    int i = NumberCount(_Value);
+    int i = NumberCount(_Value); //4
     Buffer[i] = 0;
     
-
     while (_Value)
     {
         i = i - 1;
         Buffer[i] = (_Value % 10) + '0';
         _Value = _Value / 10;
     }
-    
+
     return;
 }
 int main()
@@ -40,8 +39,8 @@ int main()
     int Result2 = NumberCount(5258111);//7
 
     char Buffer[100] = { 0 };
-    NumberToString(Buffer, 100, 3712);
-
+    NumberToString(Buffer, 100, 1234);
+   // std::cout << Buffer << std::endl;
     int a = 0;
     //음수,0 못넣는다.
 }
